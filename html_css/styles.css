@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1279px;
+    height: 800px;
+    background-color: #171717;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 4%;
+
+}
+.nav_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.lang {
+    margin-top: 47px;
+    margin-right: 40px;
+}
+.button {
+    display: block;
+    margin-bottom: 111px;
+}
+.lng_menu {
+    display: flex;
+    justify-content: space-between;
+}
+.lorem_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lorem {
+    width: 360px;
+    margin-left: 49px;
+}
+.lorem_header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 90px;
+    color: #FFFFFF;
+    line-height: 106px;
+
+}
+.lorem_txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+.reg {
+    margin-left: 350px;
+    position: absolute;
+    right: 30px;
+}
+
+.reg_header_txt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.reg_geader_member {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.block svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 450px;
+
+}
