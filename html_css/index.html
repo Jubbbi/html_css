@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Landing page</title>
+    <link href="compiled.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen bg-black">
+    <div class="header">
+        <div class="nav_wrapper">
+        <button class="button  ml-16 inset-x-0 top-0 " >
+            <svg class="w-10 " viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-align-justify"><line x1="21" y1="10" x2="3" y2="10"></line><line x1="21" y1="6" x2="3" y2="6"></line><line x1="21" y1="14" x2="3" y2="14"></line><line x1="21" y1="18" x2="3" y2="18"></line></svg>
+        </button>
+        
+        <div class="lang ">
+            <input type="checkbox" id="language" class="hidden absolute">
+            <label for="language" class="flex items-center space-x-1 cursor-pointer">
+            <span class="text-lg text-white">Language</span>
+            <svg class="h-4 w-4 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+            </label>
+        
+                <div id="languagemenu" class="relative mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-gray-300 border border-gray-400 transition delay-75 ease-in-out z-10">
+                <ul class="block text-left text-gray-900">
+                    <li><a href="#" class="block px-3 py-2 hover:bg-gray-200">Ukraine</a></li>
+                    <li><a href="#" class="block px-3 py-2 hover:bg-gray-200">German</a></li>
+                    <li><a href="#" class="block px-3 py-2 hover:bg-gray-200">Poland</a></li>
+                    <li><a href="#" class="block px-3 py-2 hover:bg-gray-200">Greek</a></li>
+                </ul>
+            </div>
+        </div>
+        <style>
+            #language:checked ~ #languagemenu {
+                opacity: 1;
+            }
+        </style>
+        </div>
+       
+        <div class="lorem_wrapper">
+        <div class="lorem">
+            <div class="lorem_header">
+                Lorem Ipsum
+            </div>
+            <div class="lorem_txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, 
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+        <div class="flex items-center">
+            <a href="#" class="block">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve" width="512" height="512">
+                    <g>
+                        <g>
+                            <path style="fill:#F0CD00;" d="M490,245c0,135.31-109.69,245-245,245c-71.33,0-135.54-30.48-180.31-79.13    c-11.76-12.77-22.17-26.8-31.03-41.85C12.27,332.64,0,290.25,0,245C0,109.69,109.69,0,245,0c45.26,0,87.65,12.27,124.02,33.67    c15.05,8.85,29.07,19.26,41.84,31.03C459.51,109.45,490,173.67,490,245z"/>
+                            <path style="fill:#FFDE50;" d="M490,245c0,132.26-104.79,240.04-235.88,244.83C123.03,485.04,18.24,377.26,18.24,245    S123.03,4.96,254.12,0.17C385.21,4.96,490,112.74,490,245z"/>
+                            <path style="fill:#FFEA94;" d="M410.86,64.7L64.69,410.87c-11.76-12.77-22.17-26.8-31.03-41.85L369.02,33.67    C384.07,42.52,398.09,52.93,410.86,64.7z"/>
+                            <path style="fill:#FFEA94;" d="M473.1,155.43L155.42,473.11c-22.49-8.84-43.36-20.91-62.03-35.64L437.47,93.39    C452.2,112.06,464.27,132.93,473.1,155.43z"/>
+                            <path style="fill:#FAA300;" d="M435.38,245c0,105.14-85.24,190.38-190.38,190.38c-36.62,0-70.82-10.34-99.85-28.26    c-12.65-7.8-24.31-17.05-34.77-27.51c-7.69-7.68-14.73-16.03-21.02-24.94c-8.66-12.27-15.91-25.61-21.5-39.78    c-8.28-20.95-12.94-43.73-13.22-67.55c-0.02-0.78-0.02-1.56-0.02-2.34c0-105.14,85.23-190.38,190.38-190.38    c0.78,0,1.57,0,2.35,0.02c23.82,0.28,46.59,4.95,67.54,13.22c14.17,5.6,27.51,12.84,39.78,21.5c8.91,6.3,17.25,13.33,24.94,21.02    c10.46,10.45,19.71,22.12,27.51,34.77C425.04,174.18,435.38,208.38,435.38,245z"/>
+                            <path style="fill:#FFBD00;" d="M379.61,110.38L110.38,379.61c-7.69-7.68-14.73-16.03-21.02-24.94    c-8.66-12.27-15.91-25.61-21.5-39.78c-8.28-20.95-12.94-43.73-13.22-67.55c-0.02-0.78-0.02-1.56-0.02-2.34    c0-105.14,85.23-190.38,190.38-190.38c0.78,0,1.57,0,2.35,0.02c23.82,0.28,46.59,4.95,67.54,13.22    c14.17,5.6,27.51,12.84,39.78,21.5C363.58,95.66,371.92,102.69,379.61,110.38z"/>
+                            <path style="fill:#F68E00;" d="M435.375,245c0,105.14-85.24,190.38-190.38,190.38c-3.61,0-7.19-0.1-10.75-0.3    c100.14-5.57,179.62-88.55,179.62-190.08s-79.48-184.51-179.62-190.08c3.56-0.2,7.14-0.3,10.75-0.3    C350.135,54.62,435.375,139.86,435.375,245z"/>
+                        </g>
+                        <path style="fill:#F68E00;" d="M331.519,293.067c0-25.391-13.123-47.761-32.932-60.726c8.14-11.217,12.958-24.994,12.958-39.882   c0-25.711-14.332-48.133-35.424-59.71v-24.653c0-11.046-8.954-20-20-20s-20,8.954-20,20v16.296h-24.138v-16.296   c0-11.046-8.954-20-20-20s-20,8.954-20,20v16.296H148.48c-11.046,0-20,8.954-20,20s8.954,20,20,20h6.902v76.135v85.081h-6.902   c-11.046,0-20,8.954-20,20s8.954,20,20,20h23.504v16.296c0,11.046,8.954,20,20,20s20-8.954,20-20v-16.296h24.138v16.296   c0,11.046,8.954,20,20,20s20-8.954,20-20v-18.36C307.871,355.819,331.519,327.161,331.519,293.067z M195.382,164.392h48.096   c15.477,0,28.067,12.591,28.067,28.067s-12.591,28.067-28.067,28.067h-48.096V164.392z M258.979,325.608h-63.597v-65.081h48.096   h15.501c17.942,0,32.54,14.598,32.54,32.541S276.921,325.608,258.979,325.608z"/>
+                        <path style="fill:#FFEA94;" d="M356.52,293.067c0-25.391-13.123-47.761-32.932-60.726c8.14-11.217,12.958-24.994,12.958-39.882   c0-25.711-14.332-48.133-35.424-59.71v-24.653c0-11.046-8.954-20-20-20s-20,8.954-20,20v16.296h-24.138v-16.296   c0-11.046-8.954-20-20-20s-20,8.954-20,20v16.296h-23.504c-11.046,0-20,8.954-20,20s8.954,20,20,20h6.902v76.135v85.081h-6.902   c-11.046,0-20,8.954-20,20s8.954,20,20,20h23.504v16.296c0,11.046,8.954,20,20,20s20-8.954,20-20v-16.296h24.138v16.296   c0,11.046,8.954,20,20,20s20-8.954,20-20v-18.36C332.873,355.819,356.52,327.161,356.52,293.067z M220.383,164.392h48.096   c15.477,0,28.067,12.591,28.067,28.067s-12.591,28.067-28.067,28.067h-48.096V164.392z M283.98,325.608h-63.597v-65.081h48.096   h15.501c17.942,0,32.54,14.598,32.54,32.541S301.923,325.608,283.98,325.608z"/>
+                    </g>
+                    </svg>
+            </a>
+        </div>
+<div class="reg">
+    <div class="reg_header">
+        <div class="reg_header_txt">Sign up</div>
+        <div class="reg_geader_member">Already a member? <a href="">Log in</a></div>
+    </div>
+    <div class="reg_input">
+        <div class="mb-4">
+            <label class="block text-white text-sm font-bold mb-2" for="Email">
+              Email
+            </label>
+            <input class="shadow appearance-none bg-red-50 bg-opacity-10 border rounded-full w-full py-3 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="name@gmail.com">
+        </div>
+          
+        <div class="mb-6">
+            <label class="block text-white text-sm font-bold mb-2" for="password">
+              Password
+            </label>
+            <input class="shadow appearance-none bg-red-50 bg-opacity-10 border border-red-500 rounded-full w-full py-3 px-3 text-white mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************">
+            <p class="text-red-500 text-xs italic">Please choose a password.</p>
+        </div>
+    </div>
+        
+
+          
+    <div class="reg_btn">
+       <button class="btn-dark py-2 p-4 bg-red-50 text-white font-semibold rounded-full shadow-md hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-50 bg-opacity-10">Create an account
+       </button>
+
+       <button class="btn-dark py-2 p-4 bg-red-50 text-white font-semibold rounded-full shadow-md hover:bg-red-50 focus:outline-none focus:ring-2 focus:ring-red-50 bg-opacity-10">Sign up with Google
+        </button>
+
+        
+      </div>
+      </div>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
